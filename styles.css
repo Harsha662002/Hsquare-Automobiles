@@ -1,0 +1,359 @@
+/*NEUTRAL(Used in many parts)*/
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat-Bold";
+}
+
+p {
+  color: #003366;
+}
+
+/* Download buttons */
+.download-button {
+  margin: 7% 3% 5% 0; 
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+  }
+
+  .img_1 {
+    width: 100%;
+  }
+}
+.clearfix{
+  overflow: auto;
+}
+
+.here:hover {
+  color: white;
+}
+
+.here:visited {
+  color: white;
+}
+
+#Note{
+  color: black;
+  font-weight: 600;
+}
+#NOTE strong{
+  font-weight: 900;
+}
+
+/* TITLE SECTION(FIRST PART)*/
+
+#title {
+  background: #808080;
+  color: #e6e6fa;
+  text-align: left;
+}
+
+
+.container-fluid {
+  padding: 2% 10%;
+}
+
+/* Heading section */
+.big-heading {
+  font-family: Geneva;
+  font-size: 2.4rem;
+  line-height: 1.5;
+  padding-bottom: 15px;
+}
+
+/* Navigation bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
+
+.nav-item {
+  padding: 0 17.5px 0 18px;
+}
+
+.nav-link {
+  font-size: 1.3rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+
+/* Title image */
+.img_1 {
+  width: 400%;
+}
+
+.Here:hover {
+  color: white;
+}
+
+.Here:visited {
+  color: white;
+}
+
+/*ABOUT SECTION(2ND PART)*/
+
+.img_2 {
+  width: 575%;
+  margin-left: 60px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 10px;
+  margin-top: 30px;;
+  margin-bottom: 50px;
+}
+
+.grid-container > div {
+  text-align:left;
+  padding: 20px 0;
+  font-size: 30px; 
+}
+
+.small-heading {
+  font-family: "Montserrat-Black";
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color:#696969;
+  font-weight: 500;
+  margin-left: 80px;
+}
+
+.section-2{
+  font-family: sans-serif;
+  font-weight: bolder;
+  margin-left: 80px;
+}
+
+.Ntg{
+margin-left: 80px;
+}
+
+/*TESTIMONIAL SECTION(3RD PART)*/
+
+#testimonials {
+  background: #808080;
+  color: #e6e6fa;
+  margin-bottom: 100px;
+}
+
+.testimonal-text {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+.testimonial-image {
+  width: 40%;
+  height: 305px;
+  margin: 20px;
+  float:left;
+}
+
+.carousel-item {
+  padding: 7% 10%;
+}
+
+.align{
+  text-align: center;
+}
+
+.third h1{
+  font-family: "Montserrat-Black";
+  font-weight: 700;
+  font-size: 3rem;
+  color:	#708090;
+}
+
+.third h3{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size:2rem ;
+  margin-bottom: 10px;
+  color:#708090;
+  font-weight: 400;
+}
+
+
+/*PRICING(4TH PART)*/
+
+#pricing {
+  padding: 0 125px;
+  /* margin-bottom: 30px; */
+}
+
+.pricing-first{
+  font-size: 1.5rem;
+}
+
+.pricing-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+  color:	#708090;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.card-body{
+  font-weight:bold;
+  font-style:initial;
+  color:#696969;
+}
+
+.pricing-title em{
+  font-size: 0.5rem;
+  color:black;
+}
+
+#buttn{
+  background:#808080;
+  color: black;
+  font-weight: 500;
+}
+
+#buttn:hover{
+  background:#708090;
+}
+
+/*FEATURES PART(5TH PART)*/
+
+#features {
+  padding: 2% 10% 5%;
+  background: #808080;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.icon {
+  margin-bottom: 0.5rem;
+  color:white;
+}
+
+.icon:hover {
+  color: black;
+}
+
+#features h2{
+  margin-bottom: 40px;
+  font-size: 3.5rem;
+  color:black;
+}
+#features p{
+  font-weight: bold;
+}
+
+/*CTA(6TH PART)*/
+
+#cta {
+  padding: 7% 15% 0;
+}
+
+.grid-call-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  grid-gap: 125px;
+  padding: 10px;
+}
+
+.grid-call-container > div {
+  text-align: left;
+  padding: 20px 20px;
+  font-size: 30px;
+}
+
+.item1 {
+  grid-row: 1 / 4;
+  grid-column:1/4;
+}
+
+.item2{
+ grid-row:1/4;
+ grid-column:4/7;
+}
+
+#butn{
+  background:#808080;
+  color: black;
+  font-weight: 500;
+  margin: 30px 30px 50px;
+  float:left;
+}
+
+#butn:hover{
+  background:#708090;
+}
+
+
+#icon_2:visited{
+   color:white;
+}
+
+.talk{
+  text-align: left;
+  padding-left: 4rem;
+}
+
+#ttm{
+color:	#2F4F4F;
+font-weight:900 ;
+}
+
+#connect{
+  font-size: 1.25rem;
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+/*FOOTER PART(7th part)*/
+
+#footer {
+  font-size: 1rem;
+  padding: 5% 15%;
+  background-color: gray;
+}
+
+.icon_3 {
+  margin: 0 10px 25px;
+  color:	#2F4F4F;
+}
+
+.icon_3:hover {
+  color: black;
+}
+
+#footer p {
+  font-family: "Montserrat-Black";
+  font-size: 1.2rem;
+  color:	#2F4F4F;
+  font-weight: 600;
+}
+
